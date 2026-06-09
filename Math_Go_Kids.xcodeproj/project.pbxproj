@@ -6,7 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		602592AC2FDD112E00A96359 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 602592AB2FDD112E00A96359 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		602592AB2FDD112E00A96359 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		6047E6382FD1E141000CFA81 /* Math_Go_Kids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Math_Go_Kids.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -36,16 +41,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				602592AC2FDD112E00A96359 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		602592AA2FDD112E00A96359 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				602592AB2FDD112E00A96359 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6047E62F2FD1E141000CFA81 = {
 			isa = PBXGroup;
 			children = (
 				6047E63A2FD1E141000CFA81 /* Math_Go_Kids */,
+				602592AA2FDD112E00A96359 /* Frameworks */,
 				6047E6392FD1E141000CFA81 /* Products */,
 			);
 			sourceTree = "<group>";
