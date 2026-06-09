@@ -85,7 +85,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="fondo" translatesAutoresizingMaskIntoConstraints="NO" id="F1H-Qf-DXO">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fondo" translatesAutoresizingMaskIntoConstraints="NO" id="F1H-Qf-DXO">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" weight="ultraLight"/>
                             </imageView>
@@ -167,7 +167,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Escribe tu nombre aquí..." textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZHz-au-iog">
-                                        <rect key="frame" x="29" y="56.666666666666629" width="192.66666666666666" height="34.333333333333343"/>
+                                        <rect key="frame" x="29" y="56.666666666666629" width="189" height="34.333333333333343"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
@@ -187,11 +187,12 @@
                                 <constraints>
                                     <constraint firstItem="ZHz-au-iog" firstAttribute="top" secondItem="7eH-Xa-yqg" secondAttribute="top" id="6gh-Yl-qbA"/>
                                     <constraint firstAttribute="trailing" secondItem="7eH-Xa-yqg" secondAttribute="trailing" constant="17" id="70E-1f-tWt"/>
+                                    <constraint firstAttribute="trailing" secondItem="R1z-ej-Wg8" secondAttribute="trailing" constant="47" id="D5K-Ip-uw3"/>
                                     <constraint firstItem="ZHz-au-iog" firstAttribute="top" secondItem="R1z-ej-Wg8" secondAttribute="bottom" constant="23" id="EwI-bg-wFm"/>
                                     <constraint firstAttribute="height" constant="120" id="FQF-bf-ZGE"/>
                                     <constraint firstItem="R1z-ej-Wg8" firstAttribute="top" secondItem="a6r-bw-VKT" secondAttribute="topMargin" id="Pfw-X2-5fA"/>
-                                    <constraint firstItem="R1z-ej-Wg8" firstAttribute="leading" secondItem="a6r-bw-VKT" secondAttribute="leading" constant="59" id="bIr-qK-uEB"/>
-                                    <constraint firstItem="7eH-Xa-yqg" firstAttribute="leading" secondItem="ZHz-au-iog" secondAttribute="trailing" constant="39" id="bND-gD-AgO"/>
+                                    <constraint firstItem="R1z-ej-Wg8" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="a6r-bw-VKT" secondAttribute="leading" symbolic="YES" id="bIr-qK-uEB"/>
+                                    <constraint firstItem="7eH-Xa-yqg" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="ZHz-au-iog" secondAttribute="trailing" symbolic="YES" id="bND-gD-AgO"/>
                                     <constraint firstItem="ZHz-au-iog" firstAttribute="leading" secondItem="a6r-bw-VKT" secondAttribute="leading" constant="29" id="jIt-sC-v3W"/>
                                     <constraint firstItem="ZHz-au-iog" firstAttribute="centerY" secondItem="7eH-Xa-yqg" secondAttribute="centerY" id="uv0-C9-HPq"/>
                                 </constraints>
@@ -206,6 +207,7 @@
                             <constraint firstAttribute="trailing" secondItem="EIp-Sv-woR" secondAttribute="trailing" constant="10" id="7Wr-1Y-TYd"/>
                             <constraint firstItem="a6r-bw-VKT" firstAttribute="leading" secondItem="52R-cw-q9j" secondAttribute="leading" constant="24" id="7gd-4V-7th"/>
                             <constraint firstItem="F1H-Qf-DXO" firstAttribute="top" secondItem="YDa-Pe-ZFx" secondAttribute="top" id="9Wo-TG-9VL"/>
+                            <constraint firstItem="F1H-Qf-DXO" firstAttribute="centerX" secondItem="EIp-Sv-woR" secondAttribute="centerX" id="ZEV-q1-BuG"/>
                             <constraint firstItem="F1H-Qf-DXO" firstAttribute="height" secondItem="YDa-Pe-ZFx" secondAttribute="height" id="gyu-4R-slg"/>
                             <constraint firstItem="52R-cw-q9j" firstAttribute="bottom" secondItem="a6r-bw-VKT" secondAttribute="bottom" constant="18" id="kkb-yg-PC7"/>
                             <constraint firstItem="EIp-Sv-woR" firstAttribute="top" secondItem="52R-cw-q9j" secondAttribute="top" constant="10" id="vaS-M9-Q7y"/>
@@ -401,7 +403,7 @@
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemOrangeColor">
-            <color red="1" green="0.55294117647058827" blue="0.15686274509803921" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.55294117649999996" blue="0.15686274510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="underPageBackgroundColor">
             <color red="0.70980392156862748" green="0.71764705882352942" blue="0.74117647058823533" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
